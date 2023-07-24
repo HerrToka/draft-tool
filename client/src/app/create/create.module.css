@@ -1,0 +1,103 @@
+.createPageWrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    margin-bottom: 30px;
+}
+
+.createForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.teamContainer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    row-gap: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.label {
+    color: #FFCC55;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.input {
+    width: 100%;
+    color: #ffffff;
+    background-color: #1E1E1E;
+    border: 2px solid #ffffff;
+    font-size: 36px;
+    line-height: 105%;
+    padding: 12px;
+}
+
+.input:focus {
+    border: 2px solid #FFCC55;
+    outline: none;
+}
+
+.option {
+
+}
+
+.cbContainer {
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cbInputContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.cbLabel {
+    font-size: 26px;
+    line-height: 100%;
+}
+
+.cb {
+    width: 26px;
+    height: 26px;
+    background-color: #1E1E1E;
+    border: 2px solid #ffffff;
+    outline: none;
+}
+
+
+.btn {
+    text-align: center;
+    min-width: 400px;
+    color: #ffffff;
+    background-color: #1E1E1E;
+    text-decoration: none;
+    font-size: 40px;
+    border: 2px solid #FFCC55;
+    padding: 20px 60px;
+    text-transform: uppercase;
+  }
+  
+  .btn:hover{
+    outline: 0.5px solid #FFCC55;
+    outline-offset: 8px;
+  }

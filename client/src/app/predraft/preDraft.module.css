@@ -1,0 +1,49 @@
+
+.preDraftWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.heading {
+    margin-bottom: 30px;
+}
+
+.roleContainer {
+
+}
+
+.btnContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 60px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn {
+    text-align: center;
+    min-width: 300px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 40px;
+    border: 2px solid #FFCC55;
+    padding: 20px 60px;
+    text-transform: uppercase;
+  }
+  
+  .btn:hover{
+    outline: 0.5px solid #FFCC55;
+    outline-offset: 8px;
+  }
+
+  .counterContainer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+  }
