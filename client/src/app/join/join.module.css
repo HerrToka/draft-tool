@@ -59,6 +59,7 @@
     text-align: center;
     min-width: 300px;
     color: #ffffff;
+    background-color: #1E1E1E;
     text-decoration: none;
     font-size: 40px;
     border: 2px solid #FFCC55;
@@ -70,3 +71,29 @@
     outline: 0.5px solid #FFCC55;
     outline-offset: 8px;
   }
+
+  .cbContainer {
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cbInputContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.cbLabel {
+    font-size: 26px;
+    line-height: 100%;
+}
+
+.cb {
+    width: 26px;
+    height: 26px;
+    background-color: #1E1E1E;
+    border: 2px solid #ffffff;
+    outline: none;
+}

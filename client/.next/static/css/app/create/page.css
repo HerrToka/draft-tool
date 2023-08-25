@@ -1,0 +1,107 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/app/create/create.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.create_createPageWrapper__QvzOS {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.create_heading__vlDoc {
+    margin-bottom: 30px;
+    font-size: 56px;
+}
+
+.create_createForm__Fv3tH {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.create_teamContainer__2iq9i {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.create_inputContainer__OjXQJ {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    row-gap: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.create_label__306wy {
+    color: #FFCC55;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.create_input__dSyVD {
+    width: 100%;
+    color: #ffffff;
+    background-color: #1E1E1E;
+    border: 2px solid #ffffff;
+    font-size: 36px;
+    line-height: 105%;
+    padding: 12px;
+}
+
+.create_input__dSyVD:focus {
+    border: 2px solid #FFCC55;
+    outline: none;
+}
+
+.create_option__RlMeG {
+
+}
+
+.create_cbContainer__pAI0y {
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.create_cbInputContainer__oWIsS {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.create_cbLabel__1200M {
+    font-size: 26px;
+    line-height: 100%;
+}
+
+.create_cb__u3T72 {
+    width: 26px;
+    height: 26px;
+    background-color: #1E1E1E;
+    border: 2px solid #ffffff;
+    outline: none;
+}
+
+
+.create_btn__gqjIc {
+    text-align: center;
+    min-width: 400px;
+    color: #ffffff;
+    background-color: #1E1E1E;
+    text-decoration: none;
+    font-size: 40px;
+    border: 2px solid #FFCC55;
+    padding: 20px 60px;
+    text-transform: uppercase;
+  }
+  
+  .create_btn__gqjIc:hover{
+    outline: 0.5px solid #FFCC55;
+    outline-offset: 8px;
+  }

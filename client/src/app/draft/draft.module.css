@@ -1,0 +1,232 @@
+/* common styles */
+.heading {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.button {
+    text-align: center;
+    min-width: 400px;
+    color: #ffffff;
+    background-color: #1E1E1E;
+    text-decoration: none;
+    font-size: 40px;
+    border: 2px solid #FFCC55;
+    padding: 20px 60px;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    outline: 0.5px solid #FFCC55;
+    outline-offset: 8px;
+  }
+
+/* waiting styles */
+
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.sectionWrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.codeWrapper {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center; 
+   margin-bottom: 24px;
+   gap: 16px;
+}
+
+.lobbyCode {
+    font-size: 32px;
+}
+
+.copyButtonWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.copyButton {
+    text-align: center;
+    color: #ffffff;
+    background-color: #1E1E1E;
+    text-decoration: none;
+    font-size: 24px;
+    border: 2px solid #FFCC55;
+    padding: 8px 8px;
+}
+
+.copyButton:hover{
+    outline: 0.5px solid #FFCC55;
+    outline-offset: 4px;
+  }
+
+.teamButtonWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.otherTeamButton {
+    text-align: center;
+    min-width: 400px;
+    color: #999999;
+    background-color: #1E1E1E;
+    text-decoration: none;
+    font-size: 40px;
+    border: 2px solid #bdae8c;
+    padding: 20px 60px;
+    text-transform: uppercase;
+}
+
+.lobbyRoles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    margin: 32px 0;
+}
+
+.roleButton {
+    border: 2px solid #ffffff;
+    transform: rotate(46deg);
+    background-color: #ffffff;
+    position: relative;
+}
+
+.roleButton:hover {
+    outline: 0.5px solid #FFCC55;
+    outline-offset: 4px;
+}
+
+.roleButton:focus {
+    outline: 0.5px solid #FFCC55;
+    outline-offset: 4px;
+}
+
+.roleImage {
+    transform: rotate(-45deg);
+}
+
+.name {
+    position: absolute;
+    color: #ffffff;
+    transform: rotate(-46deg);
+    font-size: 18px;
+    margin-top: 56px;
+    margin-left: -14px;
+}
+
+/* picking styles */
+
+.lobby {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+}
+
+.lobbyLeft {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: flex-start;
+    gap: 12px;
+    border-right: 1px solid #999999;
+}
+
+.lobbyCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 2;
+    max-width: 40%;
+    padding: 0px 32px;
+}
+
+.lobbyRight {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 30%;
+    gap: 24px;
+    border-left: 1px solid #999999;
+}
+
+.lobbyAction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 32px 0;
+    font-size: 24px;
+}
+
+.lobbyTimer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.deco {
+    position: absolute;
+
+}
+
+.heroes {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.banned {
+    opacity: 30%;
+    background-color: #975151;  
+    border: 2px solid #975151;
+}
+
+.picked {
+    opacity: 30%;
+    background-color: #1E1E1E;
+    border: 2px solid #999999;
+}
+
+.bannedList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+
+
+}
+
+/* banning styles */
+
+/* finisihed styles */

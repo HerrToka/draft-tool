@@ -1,0 +1,46 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/app/page.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+.page_homepageWrapper__Js_1t {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+.page_heading__X0e6w {
+  
+}
+
+.page_text__sneHE {
+
+}
+
+.page_btnContainer__7Hdb3 {
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+.page_btn__koofn {
+  text-align: center;
+  min-width: 300px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 40px;
+  border: 2px solid #FFCC55;
+  padding: 20px 60px;
+  text-transform: uppercase;
+}
+
+.page_btn__koofn:hover{
+  outline: 0.5px solid #FFCC55;
+  outline-offset: 8px;
+}

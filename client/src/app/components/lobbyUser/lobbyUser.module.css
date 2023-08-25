@@ -1,0 +1,41 @@
+.playerWrapperLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+}
+
+.playerWrapperRight {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    text-align: right;
+}
+
+.imageWrapper {
+    border: 1px solid #FFCC55;
+}
+
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+.username {
+    font-size: 18px;
+}
+
+.status {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.heroName {
+    font-size: 20px;
+}

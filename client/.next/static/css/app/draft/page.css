@@ -1,0 +1,280 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/app/components/lobbyUser/lobbyUser.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.lobbyUser_playerWrapperLeft__hWm9a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+}
+
+.lobbyUser_playerWrapperRight___F9Oz {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    text-align: right;
+}
+
+.lobbyUser_imageWrapper__jBX26 {
+    border: 1px solid #FFCC55;
+}
+
+.lobbyUser_textWrapper__jiMGw {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+.lobbyUser_username__V1aJr {
+    font-size: 18px;
+}
+
+.lobbyUser_status__Ok6d_ {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.lobbyUser_heroName__qV_if {
+    font-size: 20px;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/app/draft/draft.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+/* common styles */
+.draft_heading___PDAa {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.draft_button__fqCqz {
+    text-align: center;
+    min-width: 400px;
+    color: #ffffff;
+    background-color: #1E1E1E;
+    text-decoration: none;
+    font-size: 40px;
+    border: 2px solid #FFCC55;
+    padding: 20px 60px;
+    text-transform: uppercase;
+}
+
+.draft_button__fqCqz:hover{
+    outline: 0.5px solid #FFCC55;
+    outline-offset: 8px;
+  }
+
+/* waiting styles */
+
+.draft_logoContainer__yP_bb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.draft_title__5lo8x {
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.draft_sectionWrapper__HVdRd {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.draft_codeWrapper__OdBuR {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center; 
+   margin-bottom: 24px;
+   gap: 16px;
+}
+
+.draft_lobbyCode__6XhzO {
+    font-size: 32px;
+}
+
+.draft_copyButtonWrapper__cKUh9 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.draft_copyButton__7u_kb {
+    text-align: center;
+    color: #ffffff;
+    background-color: #1E1E1E;
+    text-decoration: none;
+    font-size: 24px;
+    border: 2px solid #FFCC55;
+    padding: 8px 8px;
+}
+
+.draft_copyButton__7u_kb:hover{
+    outline: 0.5px solid #FFCC55;
+    outline-offset: 4px;
+  }
+
+.draft_teamButtonWrapper__oCag7 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.draft_otherTeamButton__OAGeG {
+    text-align: center;
+    min-width: 400px;
+    color: #999999;
+    background-color: #1E1E1E;
+    text-decoration: none;
+    font-size: 40px;
+    border: 2px solid #bdae8c;
+    padding: 20px 60px;
+    text-transform: uppercase;
+}
+
+.draft_lobbyRoles__w_g0l {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    margin: 32px 0;
+}
+
+.draft_roleButton__wQW9o {
+    border: 2px solid #ffffff;
+    transform: rotate(46deg);
+    background-color: #ffffff;
+    position: relative;
+}
+
+.draft_roleButton__wQW9o:hover {
+    outline: 0.5px solid #FFCC55;
+    outline-offset: 4px;
+}
+
+.draft_roleButton__wQW9o:focus {
+    outline: 0.5px solid #FFCC55;
+    outline-offset: 4px;
+}
+
+.draft_roleImage__VRpNx {
+    transform: rotate(-45deg);
+}
+
+.draft_name__0Ymk6 {
+    position: absolute;
+    color: #ffffff;
+    transform: rotate(-46deg);
+    font-size: 18px;
+    margin-top: 56px;
+    margin-left: -14px;
+}
+
+/* picking styles */
+
+.draft_lobby__M2HDt {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+}
+
+.draft_lobbyLeft__wXp9N {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: flex-start;
+    gap: 12px;
+    border-right: 1px solid #999999;
+}
+
+.draft_lobbyCenter__l50yr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 2;
+    max-width: 40%;
+    padding: 0px 32px;
+}
+
+.draft_lobbyRight__Gb92m {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 30%;
+    gap: 24px;
+    border-left: 1px solid #999999;
+}
+
+.draft_lobbyAction__TU8r9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 32px 0;
+    font-size: 24px;
+}
+
+.draft_lobbyTimer__GvFqs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.draft_deco__Qo_ge {
+    position: absolute;
+
+}
+
+.draft_heroes__tyMkq {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.draft_banned__1j29d {
+    opacity: 30%;
+    background-color: #975151;  
+    border: 2px solid #975151;
+}
+
+.draft_picked__pGobP {
+    opacity: 30%;
+    background-color: #1E1E1E;
+    border: 2px solid #999999;
+}
+
+.draft_bannedList__KtAqP {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+
+
+}
+
+/* banning styles */
+
+/* finisihed styles */
+
