@@ -1,3 +1,37 @@
 self.__RSC_CSS_MANIFEST={
-  "__entry_css_mods__": {}
+  "__entry_css_mods__": {
+    "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\page": [
+      "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\page.module.css",
+      "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\globals.css"
+    ],
+    "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\join\\page": [
+      "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\join\\join.module.css",
+      "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\globals.css"
+    ],
+    "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\create\\page": [
+      "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\create\\create.module.css",
+      "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\globals.css"
+    ],
+    "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\draft\\page": [
+      "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\components\\lobbyUser\\lobbyUser.module.css",
+      "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\draft\\draft.module.css",
+      "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\globals.css"
+    ]
+  },
+  "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\page.tsx": [
+    "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\page.module.css"
+  ],
+  "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\layout.tsx": [
+    "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\globals.css"
+  ],
+  "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\join\\page.tsx": [
+    "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\join\\join.module.css"
+  ],
+  "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\create\\page.tsx": [
+    "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\create\\create.module.css"
+  ],
+  "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\draft\\page.tsx": [
+    "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\draft\\draft.module.css",
+    "E:\\Toni\\Studium\\Bachelor\\Modul 6-3\\draft-tool\\client\\src\\app\\components\\lobbyUser\\lobbyUser.module.css"
+  ]
 }
